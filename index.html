@@ -11,7 +11,7 @@
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
     <nav class="Sidebar">
       <div>
-        <img src="../assets/logo-light.svg" />
+        <img class="desktop-only" src="../assets/logo-light.svg" />
         <h4>ALL BOARDS (1)</h4>
 
         <button>Launch Career</button>
@@ -28,12 +28,11 @@
       </header>
 
       <div class="main-body">
-        <main>
+        <main class="list-section">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
             <div>
-              <span></span>
-              <h4>TODO</h4>
+              <h4> <span id="ball-1"></span>TODO (2)</h4>
             </div>
             <!-- Tasks container for TODO -->
             <div>
@@ -44,8 +43,7 @@
           <!-- DOING Column -->
           <div>
             <div>
-              <span></span>
-              <h4>DOING</h4>
+              <h4> <span id="ball-2"></span>DOING (2)</h4>
             </div>
             <!-- Tasks container for DOING -->
             <div>
@@ -56,8 +54,7 @@
           <!-- DONE Column -->
           <div>
             <div>
-              <span></span>
-              <h4>DONE</h4>
+              <h4> <span id="ball-3"></span>DONE (2)</h4>
             </div>
             <!-- Tasks container for DONE -->
             <div>
