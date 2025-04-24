@@ -18,20 +18,32 @@ body {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-areas:
     "Sidebar heading"
-    "Sidebar min"
-    "Sidebar min";
+    "Sidebar main-body"
+    "Sidebar main-body";
   column-gap: 2px;
   background-color: #e4ebfa;
   margin: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
-
   font-style: normal;
 }
+.desktop-only{
+  margin-left:30px ;
+  margin-top: 20px;
+    width: 150px;
+}
+
 #side-heading{
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: rgb(130, 143, 163);
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header-heading{
+  margin-left: 20px;
+
 }
 
 button {
@@ -43,21 +55,22 @@ button {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
+  padding-right: 90px;
+
+  
+  
 }
 .mobile-only {
   display: none;
 }
-.desktop-only {
-  width: 150px;
-}
+
 .heading {
   grid-area: heading;
   border: 1px solid #ffff;
   background-color: #ffff;
 }
 .main-body {
-  grid-area: min;
-
+  grid-area: main-body;
   background-color: #e4ebfa;
 }
 
