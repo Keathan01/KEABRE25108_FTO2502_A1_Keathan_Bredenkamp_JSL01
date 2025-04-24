@@ -1,10 +1,13 @@
+
 .tasks {
-  background-color: #ffff;
+  border: 1px solid #ffff;
+  width: 90%;
+  height: 90px;
 }
 body {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 2fr;
   grid-template-areas:
     "Sidebar heading"
     "Sidebar min"
@@ -12,6 +15,15 @@ body {
   column-gap: 2px;
   background-color: #e4ebfa;
   margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+button{
+  background-color: #635FC7;
+  color: #ffff;
 }
 .mobile-only {
   display: none;
