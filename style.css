@@ -2,6 +2,7 @@
   border: 1px solid #ffff;
   width: 90%;
   height: 90px;
+  margin-top: 10px;
 }
 body {
   display: grid;
@@ -28,6 +29,7 @@ button {
   height: 40px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  cursor: pointer;
 }
 .mobile-only {
   display: none;
@@ -59,6 +61,8 @@ h4 {
 .list-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 20px;
+
 }
 #ball-1 {
   background-color: #49c4e5;
