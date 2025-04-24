@@ -11,6 +11,7 @@
   font-size: 14px;
   font-weight: 700;
   padding-bottom: 3px;
+  box-shadow: 0 5px 6px #364E7E1A;
 }
 body {
   display: grid;
@@ -27,13 +28,13 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.desktop-only{
-  margin-left:30px ;
+.desktop-only {
+  margin-left: 30px;
   margin-top: 20px;
-    width: 150px;
+  width: 150px;
 }
 
-#side-heading{
+#side-heading {
   font-size: 12px;
   font-weight: 700;
   color: rgb(130, 143, 163);
@@ -41,9 +42,8 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.header-heading{
+.header-heading {
   margin-left: 20px;
-
 }
 
 button {
@@ -56,9 +56,6 @@ button {
   border-bottom-right-radius: 20px;
   cursor: pointer;
   padding-right: 90px;
-
-  
-  
 }
 .mobile-only {
   display: none;
@@ -79,7 +76,7 @@ button {
   border: 1px solid #ffff;
   background-color: #ffff;
 }
-.ball-container{
+.ball-container {
   font-weight: normal;
   color: rgb(130, 143, 163);
   font-size: 11px;
@@ -97,26 +94,22 @@ button {
   border-radius: 50%;
   height: 12px;
   width: 12px;
- 
 }
 #ball-2 {
   background-color: #8471f2;
   border-radius: 50%;
   height: 12px;
   width: 12px;
- 
 }
 #ball-3 {
   background-color: #67e2ae;
   border-radius: 50%;
   height: 12px;
   width: 12px;
- 
- 
 }
-.balls{
+.balls {
   display: flex;
-  flex-direction:row;
-gap: 10px;
-margin-bottom: 10px;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
 }
