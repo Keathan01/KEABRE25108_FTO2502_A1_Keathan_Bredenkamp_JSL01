@@ -1,8 +1,15 @@
 .tasks {
   border: 1px solid #ffff;
   width: 90%;
-  height: 90px;
+  height: 40px;
   margin-top: 10px;
+  background-color: #ffff;
+  border-radius: 8px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
 }
 body {
   display: grid;
@@ -57,11 +64,13 @@ button {
 h4 {
   font-weight: normal;
   color: rgb(130, 143, 163);
+  font-size: 12px;
 }
 .list-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 20px;
+  grid-template-rows: 3;
 }
 #ball-1 {
   background-color: #49c4e5;
