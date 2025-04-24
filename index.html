@@ -12,7 +12,7 @@
     <nav class="Sidebar">
       <div>
         <img class="desktop-only" src="../assets/logo-light.svg" alt=desktop-logo/>
-        <h4>ALL BOARDS (1)</h4>
+        <h4 id="side-heading">ALL BOARDS (1)</h4>
 
         <button>Launch Career</button>
       </div>
@@ -31,8 +31,9 @@
         <main class="list-section">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
-            <div>
-              <h4> <span id="ball-1"></span>TODO (2)</h4>
+            <div class="balls">
+              <span id="ball-1"></span>
+              <h4 class="ball-container">TODO (2)</h4>
             </div>
             <!-- Tasks container for TODO -->
             <div>
@@ -42,8 +43,9 @@
           </div>
           <!-- DOING Column -->
           <div>
-            <div>
-              <h4> <span id="ball-2"></span>DOING (2)</h4>
+            <div class="balls">
+              <span id="ball-2"></span>
+              <h4 class="ball-container">DOING (2)</h4>
             </div>
             <!-- Tasks container for DOING -->
             <div>
@@ -53,8 +55,10 @@
           </div>
           <!-- DONE Column -->
           <div>
-            <div>
-              <h4> <span id="ball-3"></span>DONE (2)</h4>
+            <div class="balls">
+                <span id="ball-3"></span>
+              <h4 class="ball-container"></span>DONE (2)</h4>
+              
             </div>
             <!-- Tasks container for DONE -->
             <div>

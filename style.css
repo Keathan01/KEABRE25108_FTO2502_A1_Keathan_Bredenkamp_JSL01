@@ -1,7 +1,7 @@
 .tasks {
   border: 1px solid #ffff;
   width: 90%;
-  height: 40px;
+  height: 30px;
   margin-top: 10px;
   background-color: #ffff;
   border-radius: 8px;
@@ -9,7 +9,8 @@
   padding-left: 10px;
   padding-top: 15px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
+  padding-bottom: 3px;
 }
 body {
   display: grid;
@@ -26,6 +27,11 @@ body {
   font-optical-sizing: auto;
 
   font-style: normal;
+}
+#side-heading{
+  font-size: 11px;
+  font-weight: 700;
+  color: rgb(130, 143, 163);
 }
 
 button {
@@ -57,39 +63,47 @@ button {
 
 .Sidebar {
   grid-area: Sidebar;
-  border: 1px solid black;
   border: 1px solid #ffff;
   background-color: #ffff;
 }
-h4 {
+.ball-container{
   font-weight: normal;
   color: rgb(130, 143, 163);
-  font-size: 12px;
+  font-size: 11px;
+  margin: 0;
 }
 .list-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 20px;
   grid-template-rows: 3;
+  margin-top: 20px;
 }
 #ball-1 {
   background-color: #49c4e5;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  display: inline-block;
+  height: 12px;
+  width: 12px;
+ 
 }
 #ball-2 {
   background-color: #8471f2;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  display: inline-block;
+  height: 12px;
+  width: 12px;
+ 
 }
 #ball-3 {
   background-color: #67e2ae;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  display: inline-block;
+  height: 12px;
+  width: 12px;
+ 
+ 
+}
+.balls{
+  display: flex;
+  flex-direction:row;
+gap: 10px;
+margin-bottom: 10px;
 }
