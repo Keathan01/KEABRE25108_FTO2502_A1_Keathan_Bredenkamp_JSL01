@@ -129,7 +129,13 @@ flex-direction: row;
     display: block;
     width: 40px;
   }
- 
+ body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "heading"
+  "main-body" ;
+ }
 
 
 
