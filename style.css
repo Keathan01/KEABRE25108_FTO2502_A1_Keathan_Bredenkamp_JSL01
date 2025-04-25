@@ -128,17 +128,28 @@ flex-direction: row;
   .mobile-only{
     display: block;
     width: 40px;
+    margin-left: 20px;
   }
  body{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-areas:
   "heading"
   "main-body" ;
+  
  }
-
-
-
+ .list-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  row-gap: 10px;
+ }
+ .balls{
+  margin-top: 20px;
+ }
+.tasks{
+  font-size: 16px;
+}
 
 
 }
