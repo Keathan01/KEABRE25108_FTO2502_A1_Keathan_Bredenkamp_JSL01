@@ -150,6 +150,8 @@ flex-direction: row;
 .tasks{
   font-size: 16px;
 }
-
+.ball-container{
+  font-size: 16px;
+}
 
 }
