@@ -13,7 +13,18 @@
   padding-bottom: 3px;
   box-shadow: 0 5px 6px #364e7e1a;
   white-space: nowrap;
+  cursor: pointer;
+
 }
+
+.tasks:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -145,9 +156,15 @@ body {
   .balls {
     margin-top: 20px;
   }
-  .tasks {
+  .tasks{
     font-size: 16px;
   white-space: nowrap;
+  }
+
+  .tasks:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
   }
   .ball-container {
     font-size: 16px;
