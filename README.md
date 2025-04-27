@@ -33,3 +33,22 @@ This project involves developing a **visually accurate and fully responsive Kanb
 ## Expected Outcome
 
 The final application will present a **visually cohesive, user-friendly, and responsive Kanban board** that aligns precisely with the provided Figma design. It will include **consistent styling**, **a well-structured layout, and intuitive task organization** to enhance usability across different devices.
+
+
+## Installation 🤖
+- Visit https://github.com/Keathan01
+- Fork the repository
+- Copy the code
+- Clone in Vs studios
+
+## Usage 👷‍♂️
+- Kanban To Do list
+
+## License ©️
+- Repository is made public.
+- Can be cloned when it requires an update e.g (Project updates and tools)
+- Contact Information ☎️
+- Github ( https://github.com/Keathan01 )
+- Tel (+2784 415 0663)
+- Email (bredenkampk29@gmail.com)
+- Linkdin (https://www.linkedin.com/in/keathan-bredenkamp-09a04928a/)

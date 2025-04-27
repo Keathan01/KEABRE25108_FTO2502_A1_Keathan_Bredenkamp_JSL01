@@ -12,6 +12,7 @@
   font-weight: 700;
   padding-bottom: 3px;
   box-shadow: 0 5px 6px #364e7e1a;
+  white-space: nowrap;
 }
 body {
   display: grid;
@@ -45,7 +46,7 @@ body {
 .header-heading {
   margin-left: 20px;
 }
-.mobile-btn{
+.mobile-btn {
   display: none;
 }
 .desktop-btn {
@@ -115,43 +116,40 @@ body {
   gap: 10px;
   margin-bottom: 10px;
 }
-@media (max-width:480px) {
-
-  .Sidebar{
+@media (max-width: 480px) {
+  .Sidebar {
     display: none;
   }
-  .heading{
-display: flex;
-flex-direction: row;
-
+  .heading {
+    display: flex;
+    flex-direction: row;
   }
-  .mobile-only{
+  .mobile-only {
     display: block;
     width: 40px;
     margin-left: 20px;
   }
- body{
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas:
-  "heading"
-  "main-body" ;
-  
- }
- .list-section{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  row-gap: 10px;
- }
- .balls{
-  margin-top: 20px;
- }
-.tasks{
-  font-size: 16px;
-}
-.ball-container{
-  font-size: 16px;
-}
-
+  body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "heading"
+      "main-body";
+  }
+  .list-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+  }
+  .balls {
+    margin-top: 20px;
+  }
+  .tasks {
+    font-size: 16px;
+  white-space: nowrap;
+  }
+  .ball-container {
+    font-size: 16px;
+  }
 }
