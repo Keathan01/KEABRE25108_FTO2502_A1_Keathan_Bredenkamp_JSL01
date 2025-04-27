@@ -46,7 +46,7 @@ The final application will present a **visually cohesive, user-friendly, and res
 
 ## License ©️
 - Repository is made public.
-- Can be cloned when it requires an update e.g (Project updates and tools)
+- Can be cloned when it requires an update e.g
 - Contact Information ☎️
 - Github ( https://github.com/Keathan01 )
 - Tel (+2784 415 0663)
